@@ -9,3 +9,9 @@ The script reads the root input directories (BASE_PATH_IMG and BASE_PATH_MSK) to
 The segmentation mask is loaded as an array. The script decodes the "nm" multi-focus labelling scheme. Unique lesion ids are programmatically extracted using the integer division.
 
 A geometric 3D validation filtering is performed in order to avoid mathematical degeneracy in texture matrices, each region in the mask has a geometric validation before extraction. The bounding box of each mask is analysed across its spatial axes (Z,Y,X), requiring a minimum spatial extent of at least two voxels to support 3D-radiomic extraction.
+
+
+
+
+
+This work was partially supported by project PID2025-174928OB-I00, funded by Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación, Spain (\url{https://doi.org/10.13039/501100011033}), and the European Regional Development Fund (ERDF, A way of making Europe). We acknowledge support from the Scientific Foundation of Asociación Española contra el Cáncer grant RENACER (coordinated projects AECC2023, grant ID PRYCO234528VALI).
